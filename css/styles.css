@@ -60,7 +60,7 @@ nav {
   margin-right: 294px;
 }
 
-.nav-list {
+#nav-list {
   width: 281px;
   display: flex;
   justify-content: space-between;
@@ -68,22 +68,18 @@ nav {
   margin: 0;
 }
 
-.contacts {
+#contacts {
   display: flex;
+  gap: 30px;
 }
 
-.contacts-mail {
-  display: flex;
-  align-items: center;
-  margin-right: 30px;
-}
-
-.contacts-phone {
+.contacts-icon {
   display: flex;
   align-items: center;
+  /* margin-right: 30px; */
 }
 
-.icon-mail {
+#icon-mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -91,7 +87,7 @@ nav {
   top: 2px; */
 }
 
-.icon-smartphone {
+#icon-smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
@@ -116,7 +112,7 @@ h1 {
   text-align: center;
 }
 
-.button-request {
+#button-request {
   width: 261px;
   height: 50px;
   color: var(--white);
@@ -156,22 +152,22 @@ h1 {
   margin-bottom: 30px;
 }
 
-.icon-astronaut {
+#icon-astronaut {
   width: 70px;
   height: 70px;
 }
 
-.icon-diagram {
+#icon-diagram {
   width: 70px;
   height: 54px;
 }
 
-.icon-clock {
+#icon-clock {
   width: 67px;
   height: 70px;
 }
 
-.icon-antenna {
+#icon-antenna {
   width: 65.5px;
   height: 70px;
 }
@@ -197,11 +193,11 @@ h1 {
   margin: 0 0 55.05px 0;
 }
 
-.bg-dirty-white {
+#bg-dirty-white {
   background-color: var(--dirty-white);
 }
 
-.bg-dark-gray {
+#bg-dark-gray {
   background-color: var(--dark-gray);
   height: 600px;
   display: flex;
@@ -237,7 +233,7 @@ h1 {
 }
 
 .team-member-card-social,
-.footer-company-social {
+#footer-company-social {
   display: flex;
   justify-content: center;
   padding: 0px;
@@ -417,7 +413,7 @@ footer {
   height: 252px;
 }
 
-.footer-company-info {
+#footer-company-info {
   margin-right: 70px;
 }
 
@@ -438,7 +434,7 @@ address {
   line-height: 24px;
 }
 
-.footer-find-us-title {
+#footer-find-us-title {
   color: var(--white);
   font-weight: 700;
   font-size: 14px;
