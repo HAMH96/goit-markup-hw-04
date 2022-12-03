@@ -202,8 +202,8 @@ h1 {
   height: 600px;
   display: flex;
   align-items: center;
-  background: rgba(47, 48, 58, 0.4);
-  background-image: url(../images/bannerbackground.jpg);
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bannerbackground.jpg);
   background-size: cover;
 }
 
@@ -257,12 +257,17 @@ h1 {
 }
 
 .team-member-card-social-icon:hover,
-.team-member-card-social-icon:focus,
 .footer-social-icon:hover,
-.footer-social-icon:focus {
+.team-member-card-social-icon-link:focus .team-member-card-social-icon,
+.footer-social-icon-link:focus .footer-social-icon {
   fill: var(--white);
   background-color: var(--blue);
 }
+
+/* .team-member-card-social-icon-link:focus .team-member-card-social-icon{
+  fill: green;
+  background-color: brown;
+} */
 
 #clients {
   display: flex;
@@ -297,7 +302,7 @@ h1 {
 }
 
 .client-tile:hover,
-.client-tile:focus {
+.client-tile-link:focus .client-tile{
   fill: var(--blue);
   border-color: var(--blue);
 }
@@ -355,7 +360,8 @@ a {
   flex-direction: column;
 }
 
-.portfolio-item-card:hover {
+.portfolio-item-card:hover,
+.portfolio-item-card:focus {
   background: var(--white);
   border: 1px solid var(--border-white);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
